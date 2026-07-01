@@ -11,9 +11,9 @@ local monitoredFolderPath = "workspace.Entities"
 
 local gameId = game.GameId
 if gameId == 7877609621 or gameId == 7117758812 or gameId == 6488714954 or gameId == 7629117231 then
-    monitoredFolderPath = "workspace.Entities"
+    monitoredFolderPath = workspace.Entities
 elseif gameId == 7288050875 then
-    monitoredFolderPath = "workspace.SpawnedEntities"
+    monitoredFolderPath = workspace.SpawnedEntities
 end
 
 local function getMonitoredFolder()
