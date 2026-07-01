@@ -17,8 +17,6 @@ elseif gameId == 7288050875 then
 end
 
 local function getMonitoredFolder()
-
-local function getMonitoredFolder()
     local folder = monitoredFolderPath
     return folder
 end
