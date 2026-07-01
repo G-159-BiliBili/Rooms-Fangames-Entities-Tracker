@@ -17,12 +17,9 @@ elseif gameId == 7288050875 then
 end
 
 local function getMonitoredFolder()
-    local folder = workspace:FindFirstChild("Entities")
-    if not folder then
-        folder = Instance.new("Folder")
-        folder.Name = "Entities"
-        folder.Parent = workspace
-    end
+
+local function getMonitoredFolder()
+    local folder = monitoredFolderPath
     return folder
 end
 
